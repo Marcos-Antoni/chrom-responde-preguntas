@@ -1,0 +1,110 @@
+body {
+  width: 420px;
+  height: max(100%, 583px);
+}
+
+/* Header */
+.header {
+  padding: 5px 0;
+  text-align: center;
+
+  border-bottom: 1px solid #ccc;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main */
+.container {
+  padding: 25px 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  font-size: 14px;
+  margin: 2px;
+  height: 23px;
+  width: 70%;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  width: 20%;
+  height: 29px;
+
+  border: none;
+  background: #10a37f;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0f8e6e;
+}
+
+/*  Key */
+.container-key {
+  display: block;
+}
+
+/* question */
+.container-question {
+  display: none;
+}
+
+.container-question form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-question form .div-question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin-top: 20px;
+}
+
+.container-question form textarea {
+  max-width: 95%;
+  max-height: 100px;
+
+  min-width: 95%;
+  min-height: 100px;
+}
+
+/* response */
+.container-response {
+  padding: 0 10px;
+
+  font-size: 15px;
+}
+
+/* footer */
+.footer {
+  display: none;
+}
+
+.footer .btn {
+  width: 100%;
+  height: 40px;
+  background: #eb5757;
+}
+
+.footer .btn:hover {
+  background: #d84a4a;
+}

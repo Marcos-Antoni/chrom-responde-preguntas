@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Prguntas a Bot-On</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Bot-On</h1>
+    </header>
+
+    <div class="container container-key" id="container-key">
+      <form class="center" id="form-key">
+        <input
+          type="password"
+          class="input"
+          id="key"
+          name="key"
+          placeholder="Escribe la key de GPT-3"
+          required />
+        <button type="submit" class="btn">Key</button>
+      </form>
+    </div>
+
+    <div class="container container-question" id="container-question">
+      <form id="form-question">
+        <textarea
+          class="input"
+          id="info"
+          name="question"
+          placeholder="Escribe la informacion que quieres que el bot responda"
+          required></textarea>
+
+        <div class="div-question">
+          <input
+            type="text"
+            class="input"
+            id="question"
+            name="question"
+            placeholder="Escribe tu pregunta"
+            required />
+          <button type="submit" class="btn">Pregunta</button>
+        </div>
+      </form>
+
+      <div class="container container-response" id="container-response"></div>
+    </div>
+
+    <footer id="container-end" class="footer">
+      <button class="btn" id="btn-end">Cambiar Key</button>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/key.js"></script>
+    <script src="js/question.js"></script>
+  </body>
+</html>

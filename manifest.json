@@ -1,0 +1,16 @@
+{
+  "name": "Prguntas a Bot-On",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Pégale un texto y él responderá todas las preguntas que le hagas del texto.",
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "service_worker": "JS/background.js"
+  },
+
+  "permissions": ["storage"]
+}
